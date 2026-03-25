@@ -136,11 +136,11 @@
       "id": 13,
       "name": "Rise AI (In-housing)",
       "category": "Ecom",
-      "status": "Review",
+      "status": "Planned",
       "start": "Jun 2026",
       "end": "Jun 2026",
       "owner": "Ecom Ops",
-      "priority": "P2",
+      "priority": "P3",
       "notes": "Planned to be removed"
     },
     {
@@ -433,9 +433,9 @@
       "id": 43,
       "name": "Global e-PRIMIS Transition",
       "category": "Technology",
-      "status": "In Progress",
-      "start": "Jan 2026",
-      "end": "Jul 2026",
+      "status": "Planned",
+      "start": "Jul 2026",
+      "end": "Mar 2027",
       "owner": "Tech",
       "priority": "P1",
       "notes": ""
@@ -562,5 +562,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-03-25T13:06:00.932Z"
+  "lastUpdated": "2026-03-25T13:07:52.900Z"
 }
