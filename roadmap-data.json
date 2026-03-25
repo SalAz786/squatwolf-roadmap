@@ -255,13 +255,13 @@
     },
     {
       "id": 26,
-      "name": "CRM RFP",
+      "name": "CRM Klavio",
       "category": "CRM",
-      "status": "Planned",
+      "status": "In Progress",
       "start": "Mar 2026",
       "end": "Apr 2026",
       "owner": "CRM",
-      "priority": "P1",
+      "priority": "P2",
       "notes": "TBC"
     },
     {
@@ -431,7 +431,7 @@
     },
     {
       "id": 43,
-      "name": "Global e Ã¢ÂÂ PRIMIS Transition",
+      "name": "Global e ÃÂ¢ÃÂÃÂ PRIMIS Transition",
       "category": "Technology",
       "status": "Planned",
       "start": "Jul 2026",
@@ -573,5 +573,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-03-25T12:23:50.624Z"
+  "lastUpdated": "2026-03-25T12:24:09.141Z"
 }
