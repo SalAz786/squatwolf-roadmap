@@ -551,17 +551,6 @@
       "notes": ""
     },
     {
-      "id": 54,
-      "name": "Fitness Tracker Integration",
-      "category": "Data",
-      "status": "Planned",
-      "start": "Jul 2027",
-      "end": "Dec 2027",
-      "owner": "Tech",
-      "priority": "P4",
-      "notes": ""
-    },
-    {
       "id": 55,
       "name": "TBC: Behavioural Analytics",
       "category": "Ecom",
@@ -573,5 +562,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-03-25T12:57:56.911Z"
+  "lastUpdated": "2026-03-25T12:58:12.004Z"
 }
