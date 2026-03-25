@@ -30,7 +30,7 @@
       "start": "Mar 2026",
       "end": "Mar 2026",
       "owner": "Ecom Team",
-      "priority": "P2",
+      "priority": "P3",
       "notes": "Back in Stock"
     },
     {
@@ -464,7 +464,7 @@
     },
     {
       "id": 43,
-      "name": "Global e – PRIMIS Transition",
+      "name": "Global e â PRIMIS Transition",
       "category": "Technology",
       "status": "Planned",
       "start": "Jul 2026",
@@ -606,5 +606,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-03-25T08:20:05.512Z"
+  "lastUpdated": "2026-03-25T08:21:19.145Z"
 }
