@@ -199,17 +199,6 @@
       "notes": ""
     },
     {
-      "id": 20,
-      "name": "Offline Activity for Stores",
-      "category": "Digital Marketing",
-      "status": "Planned",
-      "start": "Sep 2026",
-      "end": "Sep 2026",
-      "owner": "Digital",
-      "priority": "P3",
-      "notes": ""
-    },
-    {
       "id": 21,
       "name": "Display / Programmatic + CJ Master Tag",
       "category": "Digital Marketing",
@@ -595,5 +584,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-03-25T12:23:41.849Z"
+  "lastUpdated": "2026-03-25T12:23:45.446Z"
 }
