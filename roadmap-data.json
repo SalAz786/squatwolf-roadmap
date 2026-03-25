@@ -137,10 +137,10 @@
       "name": "Rise AI (In-housing)",
       "category": "Ecom",
       "status": "Planned",
-      "start": "",
-      "end": "",
+      "start": "Jun 2026",
+      "end": "Jun 2026",
       "owner": "Ecom Ops",
-      "priority": "P3",
+      "priority": "P2",
       "notes": "Planned to be removed"
     },
     {
@@ -562,5 +562,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-03-25T13:03:46.609Z"
+  "lastUpdated": "2026-03-25T13:04:29.690Z"
 }
