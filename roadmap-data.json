@@ -199,17 +199,6 @@
       "notes": ""
     },
     {
-      "id": 19,
-      "name": "SEO Agency",
-      "category": "Digital Marketing",
-      "status": "Planned",
-      "start": "Apr 2026",
-      "end": "Apr 2026",
-      "owner": "Digital",
-      "priority": "P2",
-      "notes": ""
-    },
-    {
       "id": 20,
       "name": "Offline Activity for Stores",
       "category": "Digital Marketing",
@@ -464,7 +453,7 @@
     },
     {
       "id": 43,
-      "name": "Global e â PRIMIS Transition",
+      "name": "Global e Ã¢ÂÂ PRIMIS Transition",
       "category": "Technology",
       "status": "Planned",
       "start": "Jul 2026",
@@ -606,5 +595,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-03-25T08:21:19.145Z"
+  "lastUpdated": "2026-03-25T12:23:41.849Z"
 }
