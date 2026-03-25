@@ -265,17 +265,6 @@
       "notes": "TBC"
     },
     {
-      "id": 27,
-      "name": "CRM Migration",
-      "category": "CRM",
-      "status": "Planned",
-      "start": "Jun 2026",
-      "end": "Jun 2026",
-      "owner": "CRM",
-      "priority": "P1",
-      "notes": ""
-    },
-    {
       "id": 28,
       "name": "Order Data Prior to Sept 2025",
       "category": "CRM",
@@ -584,5 +573,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-03-25T12:23:45.446Z"
+  "lastUpdated": "2026-03-25T12:23:50.624Z"
 }
