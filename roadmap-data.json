@@ -202,12 +202,12 @@
       "id": 21,
       "name": "Display / Programmatic + CJ Master Tag",
       "category": "Digital Marketing",
-      "status": "In Progress",
+      "status": "Review",
       "start": "Feb 2026",
       "end": "Mar 2026",
       "owner": "Digital",
       "priority": "P1",
-      "notes": "Twitter, Pinterest, CJ for KSA"
+      "notes": "Twitter, Pinterest, CJ for KSA\n1/4 - Fix for appflyer in place, CJ to confirm if working"
     },
     {
       "id": 22,
@@ -562,5 +562,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-04-01T09:55:00.919Z"
+  "lastUpdated": "2026-04-01T09:56:55.088Z"
 }
