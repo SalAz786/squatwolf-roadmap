@@ -202,12 +202,12 @@
       "id": 21,
       "name": "Display / Programmatic + CJ Master Tag",
       "category": "Digital Marketing",
-      "status": "Review",
+      "status": "In Progress",
       "start": "Feb 2026",
       "end": "Mar 2026",
       "owner": "Digital",
       "priority": "P1",
-      "notes": "Twitter, Pinterest, CJ for KSA\n1/4 - Fix for appflyer in place, CJ to confirm if working"
+      "notes": "Twitter, Pinterest, CJ for KSA"
     },
     {
       "id": 22,
@@ -262,7 +262,7 @@
       "end": "Apr 2026",
       "owner": "CRM",
       "priority": "P2",
-      "notes": "TBC"
+      "notes": "1/4 - Product Demo from Joe Bishop to Chris"
     },
     {
       "id": 28,
@@ -562,5 +562,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-04-01T09:56:55.088Z"
+  "lastUpdated": "2026-04-01T10:01:43.233Z"
 }
