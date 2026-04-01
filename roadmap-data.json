@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Homepage Redesign",
       "category": "Ecom",
-      "status": "Complete",
+      "status": "In Progress",
       "start": "Jan 2026",
       "end": "Mar 2026",
       "owner": "Ecom Team",
@@ -15,7 +15,7 @@
       "id": 2,
       "name": "PDP Revamp + Content Blocks",
       "category": "Ecom",
-      "status": "Review",
+      "status": "In Progress",
       "start": "Feb 2026",
       "end": "Mar 2026",
       "owner": "Ecom Team",
@@ -562,5 +562,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-04-01T09:48:46.185Z"
+  "lastUpdated": "2026-04-01T09:50:18.684Z"
 }
