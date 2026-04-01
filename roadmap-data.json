@@ -15,7 +15,7 @@
       "id": 2,
       "name": "PDP Revamp + Content Blocks",
       "category": "Ecom",
-      "status": "In Progress",
+      "status": "Review",
       "start": "Feb 2026",
       "end": "Mar 2026",
       "owner": "Ecom Team",
@@ -562,5 +562,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-04-01T09:48:01.377Z"
+  "lastUpdated": "2026-04-01T09:48:46.185Z"
 }
