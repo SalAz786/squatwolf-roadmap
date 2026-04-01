@@ -42,7 +42,7 @@
       "end": "May 2026",
       "owner": "Ecom Team",
       "priority": "P3",
-      "notes": "1/4 -Hassan spoke to Uzwa, no fixed plan at present. Chris to speak to Anam"
+      "notes": ""
     },
     {
       "id": 5,
@@ -108,7 +108,7 @@
       "end": "Apr 2026",
       "owner": "Ecom Ops",
       "priority": "P2",
-      "notes": ""
+      "notes": "1/4 Chris to confirm if we need it before birthday sale"
     },
     {
       "id": 11,
@@ -562,5 +562,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-04-01T09:51:50.591Z"
+  "lastUpdated": "2026-04-01T09:54:31.960Z"
 }
