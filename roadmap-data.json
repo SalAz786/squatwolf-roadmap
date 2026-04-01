@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Homepage Redesign",
       "category": "Ecom",
-      "status": "In Progress",
+      "status": "Complete",
       "start": "Jan 2026",
       "end": "Mar 2026",
       "owner": "Ecom Team",
@@ -560,18 +560,7 @@
       "owner": "Product",
       "priority": "",
       "notes": ""
-    },
-    {
-      "id": 56,
-      "name": "Birthday Sale Go Live on Site",
-      "category": "Ecom",
-      "status": "Planned",
-      "start": "May 2026",
-      "end": "May 2026",
-      "owner": "ECom Lead / Tech Lead",
-      "priority": "P1",
-      "notes": "May 13th / 14th TBC"
     }
   ],
-  "lastUpdated": "2026-04-01T09:47:11.728Z"
+  "lastUpdated": "2026-04-01T09:48:01.377Z"
 }
