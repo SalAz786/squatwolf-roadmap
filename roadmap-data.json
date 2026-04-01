@@ -312,7 +312,7 @@
       "id": 32,
       "name": "2-Hour Delivery",
       "category": "CS Ops",
-      "status": "Review",
+      "status": "In Progress",
       "start": "Mar 2026",
       "end": "Mar 2026",
       "owner": "CS Ops",
@@ -560,7 +560,18 @@
       "owner": "Product",
       "priority": "",
       "notes": ""
+    },
+    {
+      "id": 56,
+      "name": "Birthday Sale Go Live on Site",
+      "category": "Ecom",
+      "status": "Planned",
+      "start": "May 2026",
+      "end": "May 2026",
+      "owner": "ECom Lead / Tech Lead",
+      "priority": "P1",
+      "notes": "May 13th / 14th TBC"
     }
   ],
-  "lastUpdated": "2026-04-01T09:44:48.928Z"
+  "lastUpdated": "2026-04-01T09:47:11.728Z"
 }
