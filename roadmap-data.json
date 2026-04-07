@@ -53,7 +53,7 @@
       "end": "Aug 2026",
       "owner": "Ecom Team",
       "priority": "P1",
-      "notes": "TBC UK Markets Aug\nProcess Flow for order management in markets"
+      "notes": "TBC UK Markets Aug\nProcess Flow for order management in markets\nCustomer Data to setup workshop"
     },
     {
       "id": 6,
@@ -562,5 +562,5 @@
       "notes": ""
     }
   ],
-  "lastUpdated": "2026-04-07T10:34:45.483Z"
+  "lastUpdated": "2026-04-07T10:42:30.858Z"
 }
