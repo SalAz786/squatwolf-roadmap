@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" wm-editor-extension-available="true"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ECOM & TECH ROADMAP</title>
+<title>ECOM &amp; TECH ROADMAP</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -356,37 +354,37 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
 .toast-dot{width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0}
 </style>
 </head>
-<body>
+<body data-new-gr-c-s-check-loaded="14.1290.0" data-gr-ext-installed="">
 <div class="app">
 
   <!-- TOPBAR -->
   <div class="topbar">
-    <div class="logo">ECOM <em>&</em> TECH <em>ROADMAP</em></div>
+    <div class="logo">ECOM <em>&amp;</em> TECH <em>ROADMAP</em></div>
     <div class="sep"></div>
     <div class="view-tabs">
       <button class="vtab on" onclick="switchView('kanban')" id="tab-kanban">
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="1" width="4" height="14" rx="1"/><rect x="6" y="1" width="4" height="10" rx="1"/><rect x="11" y="1" width="4" height="12" rx="1"/></svg>
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="1" width="4" height="14" rx="1"></rect><rect x="6" y="1" width="4" height="10" rx="1"></rect><rect x="11" y="1" width="4" height="12" rx="1"></rect></svg>
         Kanban Board
       </button>
       <button class="vtab" onclick="switchView('gantt')" id="tab-gantt">
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="7" height="3" rx="1"/><rect x="5" y="7" width="8" height="3" rx="1"/><rect x="2" y="11" width="6" height="3" rx="1"/></svg>
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="7" height="3" rx="1"></rect><rect x="5" y="7" width="8" height="3" rx="1"></rect><rect x="2" y="11" width="6" height="3" rx="1"></rect></svg>
         Gantt Timeline
       </button>
     </div>
     <div class="topbar-right">
-      <div class="stats" id="stats-bar"></div>
-      <div class="sync-status"><div class="sync-dot" id="sync-dot"></div><span id="sync-label">Not configured</span></div>
+      <div class="stats" id="stats-bar"><div class="stat"><div class="sdot" style="background:#f5a623"></div><span class="sn">4</span><span class="sl">In Progress</span></div><div class="stat"><div class="sdot" style="background:#4a9eff"></div><span class="sn">3</span><span class="sl">Planned</span></div><div class="stat"><div class="sdot" style="background:#2ecc8a"></div><span class="sn">1</span><span class="sl">Complete</span></div><div class="stat"><div class="sdot" style="background:#f5a623"></div><span class="sn">6</span><span class="sl">Missing</span></div></div>
+      <div class="sync-status"><div class="sync-dot pushing" id="sync-dot"></div><span id="sync-label">Syncing…</span></div>
       <button class="btn-github" onclick="openGithubModal()">
-        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
         GitHub Sync
       </button>
       <button class="btn-download" onclick="localDownload()">
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 2v8M5 7l3 3 3-3"/><rect x="2" y="11" width="12" height="3" rx="1"/></svg>
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 2v8M5 7l3 3 3-3"></path><rect x="2" y="11" width="12" height="3" rx="1"></rect></svg>
         Local Download
       </button>
       <img src="data:image/png;base64,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" style="height:32px;width:32px;object-fit:contain;border-radius:6px;flex-shrink:0" alt="Squatwolf">
       <button class="btn-add" onclick="openAddModal()">
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3v10M3 8h10"/></svg>
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3v10M3 8h10"></path></svg>
         Add Initiative
       </button>
     </div>
@@ -411,7 +409,341 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
   <!-- MAIN -->
   <div class="main">
     <!-- KANBAN -->
-    <div class="view on" id="kv"></div>
+    <div class="view on" id="kv"><div class="kcol">
+      <div class="kcol-head">
+        <div class="cdot" style="background:#4a9eff"></div>
+        <div class="ctitle">Planned</div>
+        <div class="ccnt">3</div>
+      </div>
+      <div class="kcards" id="col-planned">
+        
+    <div class="card" onclick="openEditModal('p1')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'p1')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'p1')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-ecom">Ecom</div>
+      <div class="card-title">Gift with Purchase – Free Gifting</div>
+      <div class="card-meta">
+        <span class="badge s-planned">Planned</span>
+      </div>
+      <div class="card-date">📅 June</div>
+    </div>
+    <div class="card" onclick="openEditModal('p2')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'p2')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'p2')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-ecom">Ecom</div>
+      <div class="card-title">APP Inbox</div>
+      <div class="card-meta">
+        <span class="badge s-planned">Planned</span>
+      </div>
+      <div class="card-date">📅 September</div>
+    </div>
+    <div class="card" onclick="openEditModal('p3')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'p3')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'p3')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-crm">CRM</div>
+      <div class="card-title">Klavio / CRM</div>
+      <div class="card-meta">
+        <span class="badge s-planned">Planned</span>
+      </div>
+      <div class="card-date">📅 May → September</div>
+    </div>
+      </div>
+      <button class="add-card-btn" onclick="openAddModal('planned')">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3v10M3 8h10"></path></svg>
+        Add card
+      </button>
+    </div><div class="kcol">
+      <div class="kcol-head">
+        <div class="cdot" style="background:#f5a623"></div>
+        <div class="ctitle">In Progress</div>
+        <div class="ccnt">4</div>
+      </div>
+      <div class="kcards" id="col-progress">
+        
+    <div class="card" onclick="openEditModal('i1')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'i1')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'i1')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-tech">Technology</div>
+      <div class="card-title">Capi</div>
+      <div class="card-meta">
+        <span class="badge s-progress">In Progress</span>
+      </div>
+      <div class="card-date">📅 February → May</div><div class="card-comment">Removal Datahash</div>
+    </div>
+    <div class="card" onclick="openEditModal('i2')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'i2')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'i2')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-tech">Technology</div>
+      <div class="card-title">AlphaPro / Integration Layer – Phase 2</div>
+      <div class="card-meta">
+        <span class="badge s-progress">In Progress</span>
+      </div>
+      <div class="card-date">📅 July</div><div class="card-subtasks"><div class="subtask">Master Data</div><div class="subtask">Backbone and SAP Integration</div><div class="subtask">Master Inventory Module – Aug</div><div class="subtask">Data Visualisation – integration with BI tool</div></div>
+    </div>
+    <div class="card" onclick="openEditModal('i3')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'i3')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'i3')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-ecom">Ecom</div>
+      <div class="card-title">Back in Stock</div>
+      <div class="card-meta">
+        <span class="badge s-progress">In Progress</span>
+      </div>
+      <div class="card-date">📅 April → August</div>
+    </div>
+    <div class="card" onclick="openEditModal('i4')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'i4')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'i4')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-tech">Technology</div>
+      <div class="card-title">Primus</div>
+      <div class="card-meta">
+        <span class="badge s-progress">In Progress</span>
+      </div>
+      <div class="card-date">📅 March → June</div>
+    </div>
+      </div>
+      <button class="add-card-btn" onclick="openAddModal('progress')">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3v10M3 8h10"></path></svg>
+        Add card
+      </button>
+    </div><div class="kcol">
+      <div class="kcol-head">
+        <div class="cdot" style="background:#a78bfa"></div>
+        <div class="ctitle">Review</div>
+        <div class="ccnt">1</div>
+      </div>
+      <div class="kcards" id="col-review">
+        
+    <div class="card" onclick="openEditModal('r1')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'r1')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'r1')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-tech">Technology</div>
+      <div class="card-title">New POS Solution</div>
+      <div class="card-meta">
+        <span class="badge s-review">Review</span>
+      </div>
+      <div class="card-date">📅 January → September</div>
+    </div>
+      </div>
+      <button class="add-card-btn" onclick="openAddModal('review')">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3v10M3 8h10"></path></svg>
+        Add card
+      </button>
+    </div><div class="kcol">
+      <div class="kcol-head">
+        <div class="cdot" style="background:#2ecc8a"></div>
+        <div class="ctitle">Complete</div>
+        <div class="ccnt">1</div>
+      </div>
+      <div class="kcards" id="col-complete">
+        
+    <div class="card" onclick="openEditModal('c1')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'c1')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'c1')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-tech">Technology</div>
+      <div class="card-title">Shopify Integration</div>
+      <div class="card-meta">
+        <span class="badge s-complete">Complete</span>
+      </div>
+      <div class="card-date">📅 March</div>
+    </div>
+      </div>
+      <button class="add-card-btn" onclick="openAddModal('complete')">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3v10M3 8h10"></path></svg>
+        Add card
+      </button>
+    </div><div class="kcol">
+      <div class="kcol-head">
+        <div class="cdot" style="background:#e0607e"></div>
+        <div class="ctitle">On Hold</div>
+        <div class="ccnt">1</div>
+      </div>
+      <div class="kcards" id="col-hold">
+        
+    <div class="card" onclick="openEditModal('h1')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'h1')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'h1')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-tech">Technology</div>
+      <div class="card-title">AlphaPro / Integration Layer – Phase 3</div>
+      <div class="card-meta">
+        <span class="badge s-hold">On Hold</span>
+      </div>
+      <div class="card-comment">Discussion required before start Phase 3</div><div class="card-subtasks"><div class="subtask">Loyalty Loin</div><div class="subtask">Return Prime</div><div class="subtask">Order Tracking</div><div class="subtask">Vinculum Replace</div></div>
+    </div>
+      </div>
+      <button class="add-card-btn" onclick="openAddModal('hold')">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3v10M3 8h10"></path></svg>
+        Add card
+      </button>
+    </div><div class="kcol">
+      <div class="kcol-head">
+        <div class="cdot" style="background:#f5a623"></div>
+        <div class="ctitle">Req. Missing</div>
+        <div class="ccnt">6</div>
+      </div>
+      <div class="kcards" id="col-missing">
+        
+    <div class="card" onclick="openEditModal('m1')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'m1')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'m1')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-ecom">Ecom</div>
+      <div class="card-title">V2 PLP (Leggings Referenced)</div>
+      <div class="card-meta">
+        <span class="badge s-missing">Req. Missing</span>
+      </div>
+      
+    </div>
+    <div class="card" onclick="openEditModal('m2')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'m2')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'m2')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-ecom">Ecom</div>
+      <div class="card-title">The Den (The Vault)</div>
+      <div class="card-meta">
+        <span class="badge s-missing">Req. Missing</span>
+      </div>
+      
+    </div>
+    <div class="card" onclick="openEditModal('m3')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'m3')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'m3')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-ecom">Ecom</div>
+      <div class="card-title">Taggstar – APP</div>
+      <div class="card-meta">
+        <span class="badge s-missing">Req. Missing</span>
+      </div>
+      
+    </div>
+    <div class="card" onclick="openEditModal('m4')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'m4')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'m4')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-tech">Technology</div>
+      <div class="card-title">Local vs Global Shipping</div>
+      <div class="card-meta">
+        <span class="badge s-missing">Req. Missing</span>
+      </div>
+      
+    </div>
+    <div class="card" onclick="openEditModal('m5')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'m5')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'m5')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-ecom">Ecom</div>
+      <div class="card-title">Marketplace Integration</div>
+      <div class="card-meta">
+        <span class="badge s-missing">Req. Missing</span>
+      </div>
+      
+    </div>
+    <div class="card" onclick="openEditModal('m6')">
+      <div class="card-actions">
+        <button class="ca-btn" onclick="quickEdit(event,'m6')" title="Edit">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 2l3 3-8 8H3v-3l8-8z"></path></svg>
+        </button>
+        <button class="ca-btn del" onclick="quickDelete(event,'m6')" title="Delete">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h12M5 4V2h6v2M6 7v5M10 7v5M3 4l1 10h8l1-10"></path></svg>
+        </button>
+      </div>
+      <div class="card-cat cat-ecom">Ecom</div>
+      <div class="card-title">UGC PDP</div>
+      <div class="card-meta">
+        <span class="badge s-missing">Req. Missing</span>
+      </div>
+      
+    </div>
+      </div>
+      <button class="add-card-btn" onclick="openAddModal('missing')">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3v10M3 8h10"></path></svg>
+        Add card
+      </button>
+    </div></div>
     <!-- GANTT -->
     <div class="view" id="gv"></div>
   </div>
@@ -421,18 +753,47 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
 <div class="overlay" id="modal-overlay" onclick="overlayClick(event)">
   <div class="modal" id="modal">
     <div class="modal-head">
-      <h2 id="modal-title">Add Initiative</h2>
+      <h2 id="modal-title">⚙ GitHub Sync Configuration</h2>
       <button class="modal-close" onclick="closeModal()">
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3l10 10M13 3L3 13"/></svg>
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3l10 10M13 3L3 13"></path></svg>
       </button>
     </div>
-    <div class="modal-body" id="modal-body"></div>
-    <div class="modal-foot" id="modal-foot"></div>
+    <div class="modal-body" id="modal-body">
+    <div class="gh-info">
+      Changes are committed directly to your GitHub repo via the API — the iframe in SharePoint will reflect them automatically.<br><br>
+      You need a <a href="https://github.com/settings/tokens/new?scopes=repo&amp;description=Roadmap+Sync" target="_blank">Personal Access Token</a> with <strong>repo</strong> scope.
+    </div>
+    <div class="field">
+      <label>GitHub Owner / Org</label>
+      <input id="gh-owner" value="salaz786" placeholder="e.g. squatwolf">
+    </div>
+    <div class="field">
+      <label>Repository Name</label>
+      <input id="gh-repo" value="squatwolf-roadmap" placeholder="e.g. squatwolf-roadmap">
+    </div>
+    <div class="field">
+      <label>File Path in Repo</label>
+      <input id="gh-path" value="ecom-tech-roadmap.html" placeholder="e.g. ecom-tech-roadmap.html">
+    </div>
+    <div class="field">
+      <label>Branch</label>
+      <input id="gh-branch" value="main" placeholder="main">
+    </div>
+    <div class="field">
+      <label>Personal Access Token</label>
+      <input id="gh-token" type="password" value="GITHUB_TOKEN_REMOVED" placeholder="ghp_xxxxxxxxxxxx">
+      <div class="gh-token-note">Stored only in your browser's localStorage. Never sent anywhere except GitHub's API.</div>
+    </div>
+    <div class="gh-status-msg" id="gh-status-msg"></div></div>
+    <div class="modal-foot" id="modal-foot">
+    <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+    <button class="btn-github" style="margin-right:auto" onclick="testGhConnection()">Test Connection</button>
+    <button class="btn-save" onclick="saveGhConfigAndSync()">Save &amp; Sync Now</button></div>
   </div>
 </div>
 
 <!-- TOAST -->
-<div class="toast" id="toast"><div class="toast-dot"></div><span id="toast-msg"></span></div>
+<div class="toast" id="toast"><div class="toast-dot"></div><span id="toast-msg">Pushing to GitHub…</span></div>
 
 <script>
 // ============================================================
@@ -454,34 +815,7 @@ const MONTHS_FULL = ['January','February','March','April','May','June','July','A
 function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2)}
 
 // Seed data
-const SEED = [
-  // PLANNED
-  {id:'p1',title:'Gift with Purchase – Free Gifting',cat:'Ecom',status:'planned',monthStart:'June',monthEnd:'June',month:'June',comment:'',subtasks:[],owner:'',priority:''},
-  {id:'p2',title:'APP Inbox',cat:'Ecom',status:'planned',monthStart:'September',monthEnd:'September',month:'September',comment:'',subtasks:[],owner:'',priority:''},
-  {id:'p3',title:'Klavio / CRM',cat:'CRM',status:'planned',monthStart:'May',monthEnd:'September',month:'May',comment:'',subtasks:[],owner:'',priority:''},
-  // IN PROGRESS
-  {id:'i1',title:'Capi',cat:'Technology',status:'progress',monthStart:'February',monthEnd:'May',month:'February',comment:'Removal Datahash',subtasks:[],owner:'',priority:''},
-  {id:'i2',title:'AlphaPro / Integration Layer – Phase 2',cat:'Technology',status:'progress',monthStart:'July',monthEnd:'July',month:'July',comment:'',subtasks:[
-    'Master Data','Backbone and SAP Integration','Master Inventory Module – Aug','Data Visualisation – integration with BI tool'
-  ],owner:'',priority:''},
-  {id:'i3',title:'Back in Stock',cat:'Ecom',status:'progress',monthStart:'April',monthEnd:'August',month:'April',comment:'',subtasks:[],owner:'',priority:''},
-  {id:'i4',title:'Primus',cat:'Technology',status:'progress',monthStart:'March',monthEnd:'June',month:'March',comment:'',subtasks:[],owner:'',priority:''},
-  // REVIEW
-  {id:'r1',title:'New POS Solution',cat:'Technology',status:'review',monthStart:'January',monthEnd:'September',month:'January',comment:'',subtasks:[],owner:'',priority:''},
-  // COMPLETE
-  {id:'c1',title:'Shopify Integration',cat:'Technology',status:'complete',monthStart:'March',monthEnd:'March',month:'March',comment:'',subtasks:[],owner:'',priority:''},
-  // ON HOLD
-  {id:'h1',title:'AlphaPro / Integration Layer – Phase 3',cat:'Technology',status:'hold',monthStart:'',monthEnd:'',month:'',comment:'Discussion required before start Phase 3',subtasks:[
-    'Loyalty Loin','Return Prime','Order Tracking','Vinculum Replace'
-  ],owner:'',priority:''},
-  // REQUIREMENTS MISSING
-  {id:'m1',title:'V2 PLP (Leggings Referenced)',cat:'Ecom',status:'missing',monthStart:'',monthEnd:'',month:'',comment:'',subtasks:[],owner:'',priority:''},
-  {id:'m2',title:'The Den (The Vault)',cat:'Ecom',status:'missing',monthStart:'',monthEnd:'',month:'',comment:'',subtasks:[],owner:'',priority:''},
-  {id:'m3',title:'Taggstar – APP',cat:'Ecom',status:'missing',monthStart:'',monthEnd:'',month:'',comment:'',subtasks:[],owner:'',priority:''},
-  {id:'m4',title:'Local vs Global Shipping',cat:'Technology',status:'missing',monthStart:'',monthEnd:'',month:'',comment:'',subtasks:[],owner:'',priority:''},
-  {id:'m5',title:'Marketplace Integration',cat:'Ecom',status:'missing',monthStart:'',monthEnd:'',month:'',comment:'',subtasks:[],owner:'',priority:''},
-  {id:'m6',title:'UGC PDP',cat:'Ecom',status:'missing',monthStart:'',monthEnd:'',month:'',comment:'',subtasks:[],owner:'',priority:''},
-];
+const SEED = [{"id":"p1","title":"Gift with Purchase – Free Gifting","cat":"Ecom","status":"planned","monthStart":"June","monthEnd":"June","month":"June","comment":"","subtasks":[],"owner":"","priority":""},{"id":"p2","title":"APP Inbox","cat":"Ecom","status":"planned","monthStart":"September","monthEnd":"September","month":"September","comment":"","subtasks":[],"owner":"","priority":""},{"id":"p3","title":"Klavio / CRM","cat":"CRM","status":"planned","monthStart":"May","monthEnd":"September","month":"May","comment":"","subtasks":[],"owner":"","priority":""},{"id":"i1","title":"Capi","cat":"Technology","status":"progress","monthStart":"February","monthEnd":"May","month":"February","comment":"Removal Datahash","subtasks":[],"owner":"","priority":""},{"id":"i2","title":"AlphaPro / Integration Layer – Phase 2","cat":"Technology","status":"progress","monthStart":"July","monthEnd":"July","month":"July","comment":"","subtasks":["Master Data","Backbone and SAP Integration","Master Inventory Module – Aug","Data Visualisation – integration with BI tool"],"owner":"","priority":""},{"id":"i3","title":"Back in Stock","cat":"Ecom","status":"progress","monthStart":"April","monthEnd":"August","month":"April","comment":"","subtasks":[],"owner":"","priority":""},{"id":"i4","title":"Primus","cat":"Technology","status":"progress","monthStart":"March","monthEnd":"June","month":"March","comment":"","subtasks":[],"owner":"","priority":""},{"id":"r1","title":"New POS Solution","cat":"Technology","status":"review","monthStart":"January","monthEnd":"September","month":"January","comment":"","subtasks":[],"owner":"","priority":""},{"id":"c1","title":"Shopify Integration","cat":"Technology","status":"complete","monthStart":"March","monthEnd":"March","month":"March","comment":"","subtasks":[],"owner":"","priority":""},{"id":"h1","title":"AlphaPro / Integration Layer – Phase 3","cat":"Technology","status":"hold","monthStart":"","monthEnd":"","month":"","comment":"Discussion required before start Phase 3","subtasks":["Loyalty Loin","Return Prime","Order Tracking","Vinculum Replace"],"owner":"","priority":""},{"id":"m1","title":"V2 PLP (Leggings Referenced)","cat":"Ecom","status":"missing","monthStart":"","monthEnd":"","month":"","comment":"","subtasks":[],"owner":"","priority":""},{"id":"m2","title":"The Den (The Vault)","cat":"Ecom","status":"missing","monthStart":"","monthEnd":"","month":"","comment":"","subtasks":[],"owner":"","priority":""},{"id":"m3","title":"Taggstar – APP","cat":"Ecom","status":"missing","monthStart":"","monthEnd":"","month":"","comment":"","subtasks":[],"owner":"","priority":""},{"id":"m4","title":"Local vs Global Shipping","cat":"Technology","status":"missing","monthStart":"","monthEnd":"","month":"","comment":"","subtasks":[],"owner":"","priority":""},{"id":"m5","title":"Marketplace Integration","cat":"Ecom","status":"missing","monthStart":"","monthEnd":"","month":"","comment":"","subtasks":[],"owner":"","priority":""},{"id":"m6","title":"UGC PDP","cat":"Ecom","status":"missing","monthStart":"","monthEnd":"","month":"","comment":"","subtasks":[],"owner":"","priority":""}];
 
 let projects = JSON.parse(JSON.stringify(SEED));
 let activeFilter = 'all';
@@ -1030,7 +1364,7 @@ function buildUpdatedHTML(){
   html = html.replace(/const SEED = \[[\s\S]*?\];/, newSeed);
   // Also clear the localStorage key in the file so the SEED is always used fresh
   html = html.replace(
-    "JSON.parse(localStorage.getItem('roadmap_v2')||'null') || JSON.parse(JSON.stringify(SEED))",
+    "JSON.parse(JSON.stringify(SEED))",
     'JSON.parse(JSON.stringify(SEED))'
   );
   // IMPORTANT: Strip the GitHub token from the saved config before committing
@@ -1098,5 +1432,6 @@ function localDownload(){
   showToast('Downloaded locally');
 }
 </script>
-</body>
-</html>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
