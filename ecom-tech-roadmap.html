@@ -362,11 +362,11 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
     <div class="logo">ECOM <em>&amp;</em> TECH <em>ROADMAP</em></div>
     <div class="sep"></div>
     <div class="view-tabs">
-      <button class="vtab on" onclick="switchView('kanban')" id="tab-kanban">
+      <button class="vtab" onclick="switchView('kanban')" id="tab-kanban">
         <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="1" width="4" height="14" rx="1"></rect><rect x="6" y="1" width="4" height="10" rx="1"></rect><rect x="11" y="1" width="4" height="12" rx="1"></rect></svg>
         Kanban Board
       </button>
-      <button class="vtab" onclick="switchView('gantt')" id="tab-gantt">
+      <button class="vtab on" onclick="switchView('gantt')" id="tab-gantt">
         <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="7" height="3" rx="1"></rect><rect x="5" y="7" width="8" height="3" rx="1"></rect><rect x="2" y="11" width="6" height="3" rx="1"></rect></svg>
         Gantt Timeline
       </button>
@@ -409,7 +409,7 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
   <!-- MAIN -->
   <div class="main">
     <!-- KANBAN -->
-    <div class="view on" id="kv"><div class="kcol">
+    <div class="view" id="kv"><div class="kcol">
       <div class="kcol-head">
         <div class="cdot" style="background:#4a9eff"></div>
         <div class="ctitle">Planned</div>
@@ -1017,7 +1017,7 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
       </button>
     </div></div>
     <!-- GANTT -->
-    <div class="view" id="gv"><div class="gantt-header">
+    <div class="view on" id="gv"><div class="gantt-header">
     <div class="gantt-label-col">Initiative</div>
     <div class="gantt-months">
       <div class="gantt-month">Jan</div><div class="gantt-month">Feb</div><div class="gantt-month">Mar</div><div class="gantt-month">Apr</div><div class="gantt-month">May</div><div class="gantt-month">Jun</div><div class="gantt-month">Jul</div><div class="gantt-month">Aug</div><div class="gantt-month">Sep</div><div class="gantt-month">Oct</div><div class="gantt-month">Nov</div><div class="gantt-month">Dec</div>
@@ -1051,7 +1051,15 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
       </div>
       <div class="gantt-row-bars"><div class="gbar" style="left:33.33%;width:calc(41.67% - 4px);background:#f5a62325;border:1px solid #f5a62370;color:#f5a623" onclick="event.stopPropagation();openEditModal('p3')" title="Klavio / CRM (May → September)">
         Klavio / CRM
-      </div></div></div><div class="gantt-row" style="cursor: pointer;">
+      </div></div></div><div class="gantt-row" style="background: rgba(255, 255, 255, 0.01);">
+          <div class="gantt-row-label">
+            <div class="grow-sub">↳ Check for whether POS data is in Mo Engage</div>
+          </div>
+          <div class="gantt-row-bars">
+            <div class="gbar" style="left:33.33%;width:calc(41.67% - 4px);background:#f5a62312;border:1px solid #f5a62340;color:#f5a62399;font-size:9px">
+              Check for whether …
+            </div>
+          </div></div><div class="gantt-row" style="cursor: pointer;">
       <div class="gantt-row-label">
         <div>
           <div class="grow-cat cat-tech">Technology</div>
@@ -1059,7 +1067,7 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
           
         </div>
       </div>
-      <div class="gantt-row-bars"><div class="gbar" style="left:8.33%;width:calc(33.33% - 4px);background:#f5a62325;border:1px solid #f5a62370;color:#f5a623" onclick="event.stopPropagation();openEditModal('i1')" title="Capi (February → May)">
+      <div class="gantt-row-bars"><div class="gbar" style="left:8.33%;width:calc(41.67% - 4px);background:#f5a62325;border:1px solid #f5a62370;color:#f5a623" onclick="event.stopPropagation();openEditModal('i1')" title="Capi (February → June)">
         Capi
       </div></div></div><div class="gantt-row" style="cursor: pointer;">
       <div class="gantt-row-label">
@@ -1119,7 +1127,7 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
           
         </div>
       </div>
-      <div class="gantt-row-bars"><div class="gbar" style="left:25.00%;width:calc(25.00% - 4px);background:#f5a62325;border:1px solid #f5a62370;color:#f5a623" onclick="event.stopPropagation();openEditModal('i3')" title="Back in Stock (April → June)">
+      <div class="gantt-row-bars"><div class="gbar" style="left:25.00%;width:calc(33.33% - 4px);background:#f5a62325;border:1px solid #f5a62370;color:#f5a623" onclick="event.stopPropagation();openEditModal('i3')" title="Back in Stock (April → July)">
         Back in Stock
       </div></div></div><div class="gantt-row" style="cursor: pointer;">
       <div class="gantt-row-label">
@@ -1417,13 +1425,13 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
     <div class="modal-body" id="modal-body">
     <div class="field">
       <label>Initiative Title *</label>
-      <input id="f-title" value="Klavio / CRM" placeholder="Enter title...">
+      <input id="f-title" value="AlphaPro / Integration Layer – Phase 2" placeholder="Enter title...">
     </div>
     <div class="field-row">
       <div class="field">
         <label>Category</label>
         <select id="f-cat">
-          <option value="Technology">Technology</option><option value="Ecom">Ecom</option><option value="CRM" selected="">CRM</option><option value="Digital Marketing">Digital Marketing</option><option value="Martech">Martech</option>
+          <option value="Technology" selected="">Technology</option><option value="Ecom">Ecom</option><option value="CRM">CRM</option><option value="Digital Marketing">Digital Marketing</option><option value="Martech">Martech</option>
         </select>
       </div>
       <div class="field">
@@ -1437,13 +1445,13 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
       <div class="field">
         <label>Start Month</label>
         <select id="f-monthStart">
-          <option value="">— None —</option><option value="January">January</option><option value="February">February</option><option value="March">March</option><option value="April">April</option><option value="May" selected="">May</option><option value="June">June</option><option value="July">July</option><option value="August">August</option><option value="September">September</option><option value="October">October</option><option value="November">November</option><option value="December">December</option>
+          <option value="">— None —</option><option value="January">January</option><option value="February">February</option><option value="March">March</option><option value="April">April</option><option value="May">May</option><option value="June">June</option><option value="July" selected="">July</option><option value="August">August</option><option value="September">September</option><option value="October">October</option><option value="November">November</option><option value="December">December</option>
         </select>
       </div>
       <div class="field">
         <label>End Month</label>
         <select id="f-monthEnd">
-          <option value="">— None —</option><option value="January">January</option><option value="February">February</option><option value="March">March</option><option value="April">April</option><option value="May">May</option><option value="June">June</option><option value="July">July</option><option value="August">August</option><option value="September" selected="">September</option><option value="October">October</option><option value="November">November</option><option value="December">December</option>
+          <option value="">— None —</option><option value="January">January</option><option value="February">February</option><option value="March">March</option><option value="April">April</option><option value="May">May</option><option value="June">June</option><option value="July" selected="">July</option><option value="August">August</option><option value="September">September</option><option value="October">October</option><option value="November">November</option><option value="December">December</option>
         </select>
       </div>
     </div>
@@ -1467,20 +1475,40 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
     <div class="field">
       <label>Sub-tasks / Activities</label>
       <div class="subtasks-list" id="subtasks-list">
-        
-      <div class="sub-item" id="sub-0">
-    <input value="" placeholder="Sub-task description..." oninput="updateSub(0,this.value)">
+        <div class="sub-item" id="sub-0">
+    <input value="Master Data" placeholder="Sub-task description..." oninput="updateSub(0,this.value)">
     <button class="sub-del" type="button" onclick="removeSub(0)" title="Remove">
       <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3l10 10M13 3L3 13"></path></svg>
     </button>
-  </div></div>
+  </div><div class="sub-item" id="sub-1">
+    <input value="Backbone and SAP Integration" placeholder="Sub-task description..." oninput="updateSub(1,this.value)">
+    <button class="sub-del" type="button" onclick="removeSub(1)" title="Remove">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3l10 10M13 3L3 13"></path></svg>
+    </button>
+  </div><div class="sub-item" id="sub-2">
+    <input value="Master Inventory Module – Aug" placeholder="Sub-task description..." oninput="updateSub(2,this.value)">
+    <button class="sub-del" type="button" onclick="removeSub(2)" title="Remove">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3l10 10M13 3L3 13"></path></svg>
+    </button>
+  </div><div class="sub-item" id="sub-3">
+    <input value="Data Visualisation – integration with BI tool" placeholder="Sub-task description..." oninput="updateSub(3,this.value)">
+    <button class="sub-del" type="button" onclick="removeSub(3)" title="Remove">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3l10 10M13 3L3 13"></path></svg>
+    </button>
+  </div><div class="sub-item" id="sub-4">
+    <input value="Removal of Vinculum" placeholder="Sub-task description..." oninput="updateSub(4,this.value)">
+    <button class="sub-del" type="button" onclick="removeSub(4)" title="Remove">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3l10 10M13 3L3 13"></path></svg>
+    </button>
+  </div>
+      </div>
       <button class="btn-sub-add" type="button" onclick="addSubtask()">
         <svg width="11" height="11" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3v10M3 8h10"></path></svg>
         Add sub-task
       </button>
     </div></div>
     <div class="modal-foot" id="modal-foot">
-    <button class="btn-delete-card" onclick="confirmDelete('p3')">Delete</button>
+    <button class="btn-delete-card" onclick="confirmDelete('i2')">Delete</button>
     <button class="btn-cancel" onclick="closeModal()">Cancel</button>
     <button class="btn-save" onclick="saveModal()">Save Changes</button></div>
   </div>
