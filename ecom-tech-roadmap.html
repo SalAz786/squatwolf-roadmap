@@ -1417,80 +1417,42 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
 <div class="overlay" id="modal-overlay" onclick="overlayClick(event)"><grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="visibility: visible !important; position: absolute; top: 0px; left: 0px; pointer-events: none; --rem: 16;"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="visibility: visible !important; position: absolute; top: 0px; left: 0px; pointer-events: none; --rem: 16;"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none; --rem: 16;"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none; --rem: 16;"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none; --rem: 16;"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none; --rem: 16;"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none; --rem: 16;"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none; --rem: 16;"></grammarly-extension>
   <div class="modal" id="modal">
     <div class="modal-head">
-      <h2 id="modal-title">Edit Initiative</h2>
+      <h2 id="modal-title">⚙ GitHub Sync Configuration</h2>
       <button class="modal-close" onclick="closeModal()">
         <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3l10 10M13 3L3 13"></path></svg>
       </button>
     </div>
     <div class="modal-body" id="modal-body">
-    <div class="field">
-      <label>Initiative Title *</label>
-      <input id="f-title" value="Birthday Sale Stress Test" placeholder="Enter title...">
-    </div>
-    <div class="field-row">
-      <div class="field">
-        <label>Category</label>
-        <select id="f-cat">
-          <option value="Technology">Technology</option><option value="Ecom" selected="">Ecom</option><option value="CRM">CRM</option><option value="Digital Marketing">Digital Marketing</option><option value="Martech">Martech</option>
-        </select>
-      </div>
-      <div class="field">
-        <label>Status</label>
-        <select id="f-status">
-          <option value="planned">Planned</option><option value="progress">In Progress</option><option value="review" selected="">Review</option><option value="complete">Complete</option><option value="hold">On Hold</option><option value="missing">Req. Missing</option>
-        </select>
-      </div>
-    </div>
-    <div class="field-row">
-      <div class="field">
-        <label>Start Month</label>
-        <select id="f-monthStart">
-          <option value="">— None —</option><option value="January">January</option><option value="February">February</option><option value="March">March</option><option value="April">April</option><option value="May" selected="">May</option><option value="June">June</option><option value="July">July</option><option value="August">August</option><option value="September">September</option><option value="October">October</option><option value="November">November</option><option value="December">December</option>
-        </select>
-      </div>
-      <div class="field">
-        <label>End Month</label>
-        <select id="f-monthEnd">
-          <option value="">— None —</option><option value="January">January</option><option value="February">February</option><option value="March">March</option><option value="April">April</option><option value="May">May</option><option value="June" selected="">June</option><option value="July">July</option><option value="August">August</option><option value="September">September</option><option value="October">October</option><option value="November">November</option><option value="December">December</option>
-        </select>
-      </div>
-    </div>
-    <div class="field-row">
-      <div class="field">
-        <label>Owner / Team</label>
-        <input id="f-owner" value="Ecom" placeholder="e.g. Ecom Team">
-      </div>
-      <div class="field">
-        <label>Priority</label>
-        <select id="f-priority">
-          <option value="">None</option>
-          <option value="P1" selected="">P1</option><option value="P2">P2</option><option value="P3">P3</option><option value="P4">P4</option><option value="P5">P5</option>
-        </select>
-      </div>
+    <div class="gh-info">
+      Changes are committed directly to your GitHub repo via the API — the iframe in SharePoint will reflect them automatically.<br><br>
+      You need a <a href="https://github.com/settings/tokens/new?scopes=repo&amp;description=Roadmap+Sync" target="_blank">Personal Access Token</a> with <strong>repo</strong> scope.
     </div>
     <div class="field">
-      <label>Comment / Notes</label>
-      <textarea id="f-comment" placeholder="Any notes or comments..."></textarea>
+      <label>GitHub Owner / Org</label>
+      <input id="gh-owner" value="salaz786" placeholder="e.g. squatwolf">
     </div>
     <div class="field">
-      <label>Sub-tasks / Activities</label>
-      <div class="subtasks-list" id="subtasks-list">
-        <div class="sub-item" id="sub-0">
-    <input value="Circulate stress test strategy to ecom team" placeholder="Sub-task description..." oninput="updateSub(0,this.value)">
-    <button class="sub-del" type="button" onclick="removeSub(0)" title="Remove">
-      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3l10 10M13 3L3 13"></path></svg>
-    </button>
-  </div>
-      </div>
-      <button class="btn-sub-add" type="button" onclick="addSubtask()">
-        <svg width="11" height="11" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3v10M3 8h10"></path></svg>
-        Add sub-task
-      </button>
-    </div></div>
+      <label>Repository Name</label>
+      <input id="gh-repo" value="squatwolf-roadmap" placeholder="e.g. squatwolf-roadmap">
+    </div>
+    <div class="field">
+      <label>File Path in Repo</label>
+      <input id="gh-path" value="ecom-tech-roadmap.html" placeholder="e.g. ecom-tech-roadmap.html">
+    </div>
+    <div class="field">
+      <label>Branch</label>
+      <input id="gh-branch" value="main" placeholder="main">
+    </div>
+    <div class="field">
+      <label>Personal Access Token</label>
+      <input id="gh-token" type="password" value="GITHUB_TOKEN_REMOVED" placeholder="ghp_xxxxxxxxxxxx">
+      <div class="gh-token-note">Stored only in your browser's localStorage. Never sent anywhere except GitHub's API.</div>
+    </div>
+    <div class="gh-status-msg" id="gh-status-msg"></div></div>
     <div class="modal-foot" id="modal-foot">
-    <button class="btn-delete-card" onclick="confirmDelete('mpdw3yb6k434zhlfwyk')">Delete</button>
     <button class="btn-cancel" onclick="closeModal()">Cancel</button>
-    <button class="btn-save" onclick="saveModal()">Save Changes</button></div>
+    <button class="btn-github" style="margin-right:auto" onclick="testGhConnection()">Test Connection</button>
+    <button class="btn-save" onclick="saveGhConfigAndSync()">Save &amp; Sync Now</button></div>
   </div>
 <grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="visibility: visible !important; display: contents; --rem: 16;"></grammarly-extension-vbars></div>
 
