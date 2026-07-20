@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-07-20T17:19:40.625Z",
+  "lastUpdated": "2026-07-20T17:32:12.752Z",
   "items": [
     {
       "id": "p1",
@@ -207,8 +207,8 @@
       "title": "IRIS Finance",
       "cat": "Technology",
       "status": "planned",
-      "start": "2026-09-01",
-      "end": "2026-11-27",
+      "start": "2026-07-09",
+      "end": "2026-09-11",
       "owner": "Tech / Finance",
       "priority": "P2",
       "rag": "G",
