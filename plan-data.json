@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-07-22T13:09:46.518Z",
+  "lastUpdated": "2026-07-22T13:23:40.529Z",
   "items": [
     {
       "id": "p1",
@@ -13,7 +13,7 @@
       "priority": "P2",
       "rag": "A",
       "pct": 11,
-      "effort": "L",
+      "effort": "M",
       "budget": "",
       "deps": [
         "n1"
@@ -61,7 +61,7 @@
           "done": false
         }
       ],
-      "updated": "2026-07-20"
+      "updated": "2026-07-22"
     },
     {
       "id": "p2",
@@ -210,12 +210,16 @@
       "start": "2026-07-09",
       "end": "2026-09-11",
       "owner": "Tech / Finance",
-      "priority": "P2",
+      "priority": "P1",
       "rag": "G",
       "pct": 0,
       "effort": "L",
       "budget": "",
-      "deps": [],
+      "deps": [
+        "c1",
+        "n4",
+        "i7"
+      ],
       "blockers": "",
       "notes": "(Proposed timeline — scope with Finance.)",
       "milestones": [],
@@ -245,7 +249,7 @@
           "done": false
         }
       ],
-      "updated": "2026-07-20"
+      "updated": "2026-07-22"
     },
     {
       "id": "n4",
@@ -405,7 +409,7 @@
           "done": false
         }
       ],
-      "updated": "2026-07-20"
+      "updated": "2026-07-22"
     },
     {
       "id": "p3",
@@ -476,7 +480,7 @@
       "cat": "Technology",
       "status": "progress",
       "start": "2026-02-02",
-      "end": "2026-06-30",
+      "end": "2026-07-30",
       "owner": "Tech",
       "priority": "P2",
       "rag": "R",
@@ -509,7 +513,7 @@
           "done": false
         }
       ],
-      "updated": "2026-07-20"
+      "updated": "2026-07-22"
     },
     {
       "id": "i2",
@@ -609,7 +613,7 @@
       "cat": "Technology",
       "status": "progress",
       "start": "2026-02-02",
-      "end": "2026-07-31",
+      "end": "2026-10-15",
       "owner": "Ecom",
       "priority": "P1",
       "rag": "A",
@@ -642,7 +646,7 @@
           "done": false
         }
       ],
-      "updated": "2026-07-20"
+      "updated": "2026-07-22"
     },
     {
       "id": "i7",
