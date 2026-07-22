@@ -1,0 +1,1661 @@
+{
+  "version": 2,
+  "lastUpdated": "2026-07-22T10:51:00.944Z",
+  "items": [
+    {
+      "id": "p1",
+      "title": "Gift with Purchase – Free Gifting",
+      "cat": "Ecom",
+      "status": "planned",
+      "start": "2026-06-01",
+      "end": "2026-10-30",
+      "owner": "Ecom Team",
+      "priority": "P2",
+      "rag": "A",
+      "pct": 10,
+      "effort": "L",
+      "budget": "",
+      "deps": [
+        "n1"
+      ],
+      "blockers": "FE effort not yet assessed",
+      "notes": "15/7: CDN work has been introduced, FE work still needs to be assessed. Muzammal and Hassan to explore effort and revert back.",
+      "milestones": [
+        {
+          "date": "2026-10-01",
+          "label": "Target launch (pre gifting season)",
+          "done": false
+        }
+      ],
+      "subtasks": [
+        {
+          "text": "Assess FE effort (Muzammal & Hassan)",
+          "done": false
+        },
+        {
+          "text": "Confirm scope after CDN dependency",
+          "done": false
+        },
+        {
+          "text": "Define gift eligibility rules & spend thresholds with marketing/trading",
+          "done": false
+        },
+        {
+          "text": "Design cart & checkout UX for auto-add gift",
+          "done": false
+        },
+        {
+          "text": "Build backend gift logic (Shopify Functions / discount API)",
+          "done": false
+        },
+        {
+          "text": "FE implementation (after CDN work lands)",
+          "done": false
+        },
+        {
+          "text": "Inventory handling for gift SKUs (returns/refunds edge cases)",
+          "done": false
+        },
+        {
+          "text": "QA + soft launch, monitor redemption & AOV impact",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "p2",
+      "title": "APP Inbox",
+      "cat": "Ecom",
+      "status": "planned",
+      "start": "2026-08-03",
+      "end": "2026-09-30",
+      "owner": "App Team",
+      "priority": "P3",
+      "rag": "G",
+      "pct": 0,
+      "effort": "M",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "15/7: Muzzamal & Hassan to sit together, work out effort and manage alongside existing workload and resource planning.",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Effort estimate & resource plan (Muzzamal & Hassan)",
+          "done": false
+        },
+        {
+          "text": "Define message types, retention & read/unread rules",
+          "done": false
+        },
+        {
+          "text": "Backend/API for inbox feed",
+          "done": false
+        },
+        {
+          "text": "App UI build (iOS & Android)",
+          "done": false
+        },
+        {
+          "text": "Deep-link routing to PDP/collections/offers",
+          "done": false
+        },
+        {
+          "text": "Push-to-inbox integration with Klaviyo",
+          "done": false
+        },
+        {
+          "text": "QA & phased release via app stores",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "n1",
+      "title": "Content Delivery Network (CDN)",
+      "cat": "Technology",
+      "status": "planned",
+      "start": "2026-08-03",
+      "end": "2026-09-25",
+      "owner": "Tech",
+      "priority": "P1",
+      "rag": "G",
+      "pct": 0,
+      "effort": "M",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "Blocks Gift with Purchase FE work. (Proposed timeline — confirm with Muzammal/Hassan.)",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Baseline performance audit (current TTFB/LCP by region)",
+          "done": false
+        },
+        {
+          "text": "Confirm provider & commercials (Cloudflare/Fastly vs Shopify-native)",
+          "done": false
+        },
+        {
+          "text": "Staging setup: DNS, cache rules, image optimisation",
+          "done": false
+        },
+        {
+          "text": "Test regional latency (UAE, KSA, UK) & purge behaviour",
+          "done": false
+        },
+        {
+          "text": "Production cutover with rollback plan",
+          "done": false
+        },
+        {
+          "text": "Post-launch monitoring & performance report",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "n2",
+      "title": "Paymob",
+      "cat": "Technology",
+      "status": "planned",
+      "start": "2026-09-01",
+      "end": "2026-10-30",
+      "owner": "Tech",
+      "priority": "P2",
+      "rag": "G",
+      "pct": 0,
+      "effort": "M",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "Payment gateway integration. (Proposed timeline.)",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Commercial agreement & merchant account setup",
+          "done": false
+        },
+        {
+          "text": "Sandbox integration & test transactions",
+          "done": false
+        },
+        {
+          "text": "Checkout integration + payment method configuration",
+          "done": false
+        },
+        {
+          "text": "3DS / fraud rules configuration",
+          "done": false
+        },
+        {
+          "text": "Reconciliation flow agreed with Finance",
+          "done": false
+        },
+        {
+          "text": "Go-live + monitor authorisation rates vs current provider",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "n3",
+      "title": "IRIS Finance",
+      "cat": "Technology",
+      "status": "planned",
+      "start": "2026-09-01",
+      "end": "2026-11-27",
+      "owner": "Tech / Finance",
+      "priority": "P2",
+      "rag": "G",
+      "pct": 0,
+      "effort": "L",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "(Proposed timeline — scope with Finance.)",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Requirements workshop with Finance",
+          "done": false
+        },
+        {
+          "text": "Data mapping (Shopify / SAP / AlphaPro → IRIS)",
+          "done": false
+        },
+        {
+          "text": "Integration build & config",
+          "done": false
+        },
+        {
+          "text": "Parallel-run one month-end close",
+          "done": false
+        },
+        {
+          "text": "Finance UAT sign-off",
+          "done": false
+        },
+        {
+          "text": "Go-live & decommission old process",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "n4",
+      "title": "Retail Data Collection",
+      "cat": "Technology",
+      "status": "planned",
+      "start": "2026-08-03",
+      "end": "2026-09-11",
+      "owner": "Tech / Retail",
+      "priority": "P2",
+      "rag": "G",
+      "pct": 0,
+      "effort": "S",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "How do we collect Retail Pro data from customers — phone number for digital receipt. (Proposed timeline.)",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Define capture flow at till (phone number → digital receipt)",
+          "done": false
+        },
+        {
+          "text": "Consent & privacy review (UAE/KSA data regulations)",
+          "done": false
+        },
+        {
+          "text": "Retail Pro configuration",
+          "done": false
+        },
+        {
+          "text": "Pilot in one store & refine script",
+          "done": false
+        },
+        {
+          "text": "Roll out to all stores with staff training",
+          "done": false
+        },
+        {
+          "text": "Feed captured data into Klaviyo/CRM",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "n5",
+      "title": "RISE AI Reconciliation",
+      "cat": "Technology",
+      "status": "planned",
+      "start": "2026-08-03",
+      "end": "2026-08-28",
+      "owner": "Finance (Kavin)",
+      "priority": "P3",
+      "rag": "G",
+      "pct": 0,
+      "effort": "S",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "Get Kavin to look into reconciliation with Finance. (Proposed timeline.)",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Kavin to review current reconciliation gaps with Finance",
+          "done": false
+        },
+        {
+          "text": "Document current vs desired process",
+          "done": false
+        },
+        {
+          "text": "Configure & validate reconciliation reports",
+          "done": false
+        },
+        {
+          "text": "Finance sign-off & handover to BAU",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "n6",
+      "title": "Tier Priced Discount",
+      "cat": "Technology",
+      "status": "planned",
+      "start": "2026-10-01",
+      "end": "2026-10-30",
+      "owner": "Tech",
+      "priority": "P3",
+      "rag": "G",
+      "pct": 0,
+      "effort": "S",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "(Proposed timeline — ahead of peak trading.)",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Define tier structure & thresholds with trading team",
+          "done": false
+        },
+        {
+          "text": "Build discount logic & test stacking vs other promos",
+          "done": false
+        },
+        {
+          "text": "QA including edge cases (returns, multi-currency)",
+          "done": false
+        },
+        {
+          "text": "Launch ahead of peak trading",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "n7",
+      "title": "Store Locator",
+      "cat": "Technology",
+      "status": "planned",
+      "start": "2026-10-12",
+      "end": "2026-11-20",
+      "owner": "Tech",
+      "priority": "P3",
+      "rag": "G",
+      "pct": 0,
+      "effort": "S",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "(Proposed timeline.)",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Collect store master data (locations, hours, contact)",
+          "done": false
+        },
+        {
+          "text": "Decide approach: app vs custom build",
+          "done": false
+        },
+        {
+          "text": "Build page with map integration",
+          "done": false
+        },
+        {
+          "text": "Align with Google Business / local SEO listings",
+          "done": false
+        },
+        {
+          "text": "Publish & link from footer/nav",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "n8",
+      "title": "Banking Integrations",
+      "cat": "Technology",
+      "status": "planned",
+      "start": "2026-09-01",
+      "end": "2026-12-18",
+      "owner": "Tech / Finance",
+      "priority": "P1",
+      "rag": "G",
+      "pct": 0,
+      "effort": "L",
+      "budget": "",
+      "deps": [
+        "i2"
+      ],
+      "blockers": "",
+      "notes": "Integrate existing and future business bank accounts so incoming payments are automatically reconciled and posted into SAP. (Proposed timeline — depends on SAP/Backbone integration via AlphaPro Phase 2.)",
+      "milestones": [
+        {
+          "date": "2026-12-01",
+          "label": "First bank live with auto-reconciliation",
+          "done": false
+        }
+      ],
+      "subtasks": [
+        {
+          "text": "Inventory bank accounts & confirm connectivity per bank (API / host-to-host / statement files)",
+          "done": false
+        },
+        {
+          "text": "Define reconciliation & matching rules with Finance",
+          "done": false
+        },
+        {
+          "text": "Agree SAP posting design (GL accounts, clearing accounts, posting keys)",
+          "done": false
+        },
+        {
+          "text": "Bank onboarding, credentials & security setup",
+          "done": false
+        },
+        {
+          "text": "Build statement ingestion & auto-reconciliation flow",
+          "done": false
+        },
+        {
+          "text": "Exceptions workflow for unmatched payments",
+          "done": false
+        },
+        {
+          "text": "Finance UAT on live statements",
+          "done": false
+        },
+        {
+          "text": "Parallel-run one month-end & sign-off",
+          "done": false
+        },
+        {
+          "text": "Go-live + onboarding playbook for future accounts",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "n9",
+      "title": "ALAAN Expense Integration",
+      "cat": "Technology",
+      "status": "planned",
+      "start": "2026-09-01",
+      "end": "2026-10-30",
+      "owner": "Tech / Finance",
+      "priority": "P2",
+      "rag": "G",
+      "pct": 0,
+      "effort": "M",
+      "budget": "",
+      "deps": [
+        "i2"
+      ],
+      "blockers": "",
+      "notes": "Integration to ALAAN expense management — expenses incurred are automatically posted into SAP. (Proposed timeline — depends on SAP/Backbone integration via AlphaPro Phase 2.)",
+      "milestones": [
+        {
+          "date": "2026-10-30",
+          "label": "Expenses auto-posting to SAP",
+          "done": false
+        }
+      ],
+      "subtasks": [
+        {
+          "text": "Confirm ALAAN API capabilities & data model (expenses, receipts, categories)",
+          "done": false
+        },
+        {
+          "text": "Define expense-to-SAP mapping (cost centres, GL codes, VAT treatment)",
+          "done": false
+        },
+        {
+          "text": "Agree posting trigger & frequency (on approval / settlement)",
+          "done": false
+        },
+        {
+          "text": "Build integration (via AlphaPro integration layer)",
+          "done": false
+        },
+        {
+          "text": "Handle edge cases: refunds, split expenses, FX",
+          "done": false
+        },
+        {
+          "text": "Reconciliation report — ALAAN vs SAP",
+          "done": false
+        },
+        {
+          "text": "Finance UAT & sign-off",
+          "done": false
+        },
+        {
+          "text": "Go-live & monitor first month-end close",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "p3",
+      "title": "Klaviyo / CRM Migration",
+      "cat": "CRM",
+      "status": "progress",
+      "start": "2026-05-01",
+      "end": "2026-09-30",
+      "owner": "CRM (Waj)",
+      "priority": "P1",
+      "rag": "A",
+      "pct": 45,
+      "effort": "XL",
+      "budget": "",
+      "deps": [],
+      "blockers": "Data migration approach for MoEngage legacy sign-ups unresolved",
+      "notes": "13/7: Waj proposing to export data from MoEngage and use Shopify data to merge across to Klaviyo.",
+      "milestones": [
+        {
+          "date": "2026-09-30",
+          "label": "Klaviyo live / MoEngage off",
+          "done": false
+        }
+      ],
+      "subtasks": [
+        {
+          "text": "Check whether POS data is in MoEngage",
+          "done": false
+        },
+        {
+          "text": "Migrate customer data from Retail Pro (retail data)",
+          "done": false
+        },
+        {
+          "text": "Migrate MoEngage Welcome-Code sign-ups who never purchased — route into Klaviyo",
+          "done": false
+        },
+        {
+          "text": "Agree data mapping & dedupe rules (email/phone as master key)",
+          "done": false
+        },
+        {
+          "text": "Rebuild core flows (welcome, abandoned cart, win-back, post-purchase)",
+          "done": false
+        },
+        {
+          "text": "Migrate templates & brand assets from MoEngage",
+          "done": false
+        },
+        {
+          "text": "Deliverability warm-up plan (dedicated sending domain)",
+          "done": false
+        },
+        {
+          "text": "Parallel-run & validate revenue attribution",
+          "done": false
+        },
+        {
+          "text": "MoEngage decommission & contract exit",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "i1",
+      "title": "Capi",
+      "cat": "Technology",
+      "status": "progress",
+      "start": "2026-02-02",
+      "end": "2026-06-30",
+      "owner": "Tech",
+      "priority": "P2",
+      "rag": "R",
+      "pct": 80,
+      "effort": "M",
+      "budget": "",
+      "deps": [],
+      "blockers": "End date passed — needs replan or closure",
+      "notes": "Removal of Datahash.",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Validate event match quality in Meta Events Manager",
+          "done": false
+        },
+        {
+          "text": "Close remaining data gaps vs Datahash baseline",
+          "done": false
+        },
+        {
+          "text": "Confirm Datahash contract termination",
+          "done": false
+        },
+        {
+          "text": "Document final setup for handover",
+          "done": false
+        },
+        {
+          "text": "Close project or formally replan end date",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "i2",
+      "title": "AlphaPro / Integration Layer – Phase 2",
+      "cat": "Technology",
+      "status": "progress",
+      "start": "2026-07-01",
+      "end": "2026-09-30",
+      "owner": "Tech",
+      "priority": "P1",
+      "rag": "A",
+      "pct": 30,
+      "effort": "XL",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "RAK and ALAAN.",
+      "milestones": [
+        {
+          "date": "2026-08-31",
+          "label": "Master Inventory Module",
+          "done": false
+        }
+      ],
+      "subtasks": [
+        {
+          "text": "Master Data",
+          "done": false
+        },
+        {
+          "text": "Backbone and SAP Integration",
+          "done": false
+        },
+        {
+          "text": "Master Inventory Module – Aug",
+          "done": false
+        },
+        {
+          "text": "Data Visualisation – integration with BI tool",
+          "done": false
+        },
+        {
+          "text": "Removal of Vinculum",
+          "done": false
+        },
+        {
+          "text": "UAT & data validation sign-off per module",
+          "done": false
+        },
+        {
+          "text": "Cutover & rollback plan for Vinculum removal",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "i5",
+      "title": "Disrupt Collaboration",
+      "cat": "Technology",
+      "status": "progress",
+      "start": "2026-02-02",
+      "end": "2026-12-31",
+      "owner": "Tech",
+      "priority": "P2",
+      "rag": "G",
+      "pct": 50,
+      "effort": "L",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Confirm scope & commercial terms",
+          "done": false
+        },
+        {
+          "text": "Agree delivery milestones & owners",
+          "done": false
+        },
+        {
+          "text": "Execution of agreed workstreams",
+          "done": false
+        },
+        {
+          "text": "Quarterly checkpoint reviews",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "i6",
+      "title": "ECom Franchise Setup",
+      "cat": "Technology",
+      "status": "progress",
+      "start": "2026-02-02",
+      "end": "2026-07-31",
+      "owner": "Ecom",
+      "priority": "P1",
+      "rag": "A",
+      "pct": 70,
+      "effort": "L",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "End of July target — confirm completion or replan.",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Confirm outstanding items vs end-July target",
+          "done": false
+        },
+        {
+          "text": "Order management process flow for franchise orders",
+          "done": false
+        },
+        {
+          "text": "Pricing & catalogue sync for franchise partner",
+          "done": false
+        },
+        {
+          "text": "Ops handover & partner training",
+          "done": false
+        },
+        {
+          "text": "Go-live sign-off or formal replan",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "i7",
+      "title": "Power BI Review",
+      "cat": "Technology",
+      "status": "progress",
+      "start": "2026-02-02",
+      "end": "2026-12-31",
+      "owner": "Tech",
+      "priority": "P2",
+      "rag": "G",
+      "pct": 50,
+      "effort": "M",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Inventory existing reports & actual usage",
+          "done": false
+        },
+        {
+          "text": "Define KPI dictionary with stakeholders",
+          "done": false
+        },
+        {
+          "text": "Rationalise & rebuild priority dashboards",
+          "done": false
+        },
+        {
+          "text": "Align data sources with AlphaPro BI integration / datalake work",
+          "done": false
+        },
+        {
+          "text": "Governance & access model",
+          "done": false
+        },
+        {
+          "text": "Rollout & training",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "i3",
+      "title": "Back in Stock",
+      "cat": "Ecom",
+      "status": "review",
+      "start": "2026-04-01",
+      "end": "2026-08-15",
+      "owner": "Ecom",
+      "priority": "P1",
+      "rag": "A",
+      "pct": 90,
+      "effort": "M",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "20/5: Brought forward to meet business expectation of 1st July. Go-live now planned 15/8.",
+      "milestones": [
+        {
+          "date": "2026-08-15",
+          "label": "Go-live",
+          "done": false
+        }
+      ],
+      "subtasks": [
+        {
+          "text": "Final QA regression before go-live",
+          "done": false
+        },
+        {
+          "text": "Launch comms plan (customer + internal)",
+          "done": false
+        },
+        {
+          "text": "Go-live 15/8",
+          "done": false
+        },
+        {
+          "text": "Monitor notification volume & conversion for 2 weeks",
+          "done": false
+        },
+        {
+          "text": "Handover to BAU",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "i4",
+      "title": "Primus",
+      "cat": "Technology",
+      "status": "review",
+      "start": "2026-03-02",
+      "end": "2026-06-30",
+      "owner": "Tech",
+      "priority": "P2",
+      "rag": "A",
+      "pct": 90,
+      "effort": "L",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "In review — end date passed, confirm sign-off.",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Final UAT sign-off",
+          "done": false
+        },
+        {
+          "text": "Resolve open defects",
+          "done": false
+        },
+        {
+          "text": "Production cutover",
+          "done": false
+        },
+        {
+          "text": "Hyper-care period",
+          "done": false
+        },
+        {
+          "text": "Project close & lessons learned",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "r2",
+      "title": "KSA Short Address V2",
+      "cat": "Ecom",
+      "status": "review",
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "owner": "Ecom Ops",
+      "priority": "P2",
+      "rag": "G",
+      "pct": 95,
+      "effort": "M",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "Return Prime mapping now completed. Testing finished — ready for go-live.",
+      "milestones": [
+        {
+          "date": "2026-05-15",
+          "label": "Demo to Hassan & Chris",
+          "done": true
+        }
+      ],
+      "subtasks": [
+        {
+          "text": "Arrange demo to Hassan and Chris (Fri 15 May)",
+          "done": true
+        },
+        {
+          "text": "Go-live sign-off",
+          "done": false
+        },
+        {
+          "text": "Production go-live",
+          "done": false
+        },
+        {
+          "text": "Monitor KSA delivery success rates for 4 weeks",
+          "done": false
+        },
+        {
+          "text": "Close project",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "r3",
+      "title": "AI Strategy",
+      "cat": "Technology",
+      "status": "review",
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "owner": "Tech",
+      "priority": "P2",
+      "rag": "A",
+      "pct": 85,
+      "effort": "M",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "Push AI Hub.",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Finalise strategy document",
+          "done": false
+        },
+        {
+          "text": "Exec sign-off",
+          "done": false
+        },
+        {
+          "text": "Launch AI Hub",
+          "done": false
+        },
+        {
+          "text": "Define pilot backlog with owners & success metrics",
+          "done": false
+        },
+        {
+          "text": "Comms & rollout to teams",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "r4",
+      "title": "Grant Thornton Audit",
+      "cat": "Technology",
+      "status": "review",
+      "start": "2026-02-02",
+      "end": "2026-06-30",
+      "owner": "Finance",
+      "priority": "P1",
+      "rag": "A",
+      "pct": 90,
+      "effort": "M",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Close remaining audit queries",
+          "done": false
+        },
+        {
+          "text": "Receive final report",
+          "done": false
+        },
+        {
+          "text": "Remediation action plan with owners",
+          "done": false
+        },
+        {
+          "text": "Track actions to closure",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "c0",
+      "title": "New POS Solution",
+      "cat": "Technology",
+      "status": "complete",
+      "start": "2026-01-05",
+      "end": "2026-09-30",
+      "owner": "Tech",
+      "priority": "P1",
+      "rag": "G",
+      "pct": 100,
+      "effort": "XL",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [],
+      "updated": ""
+    },
+    {
+      "id": "c1",
+      "title": "Shopify Integration",
+      "cat": "Technology",
+      "status": "complete",
+      "start": "2026-03-02",
+      "end": "2026-03-31",
+      "owner": "Tech",
+      "priority": "P1",
+      "rag": "G",
+      "pct": 100,
+      "effort": "L",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [],
+      "updated": ""
+    },
+    {
+      "id": "c2",
+      "title": "KSA Short Address V1",
+      "cat": "Technology",
+      "status": "complete",
+      "start": "2026-01-05",
+      "end": "2026-02-27",
+      "owner": "Tech",
+      "priority": "P2",
+      "rag": "G",
+      "pct": 100,
+      "effort": "M",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [],
+      "updated": ""
+    },
+    {
+      "id": "c3",
+      "title": "Customer Cohorts Analysis",
+      "cat": "Technology",
+      "status": "complete",
+      "start": "2026-02-02",
+      "end": "2026-04-30",
+      "owner": "Ecom",
+      "priority": "P2",
+      "rag": "G",
+      "pct": 100,
+      "effort": "M",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Review anomalies with Chris",
+          "done": true
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "c4",
+      "title": "New Buying Guides V1",
+      "cat": "Technology",
+      "status": "complete",
+      "start": "2026-02-02",
+      "end": "2026-03-31",
+      "owner": "Ecom",
+      "priority": "P3",
+      "rag": "G",
+      "pct": 100,
+      "effort": "S",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [],
+      "updated": ""
+    },
+    {
+      "id": "c5",
+      "title": "Tagstar Integration",
+      "cat": "Technology",
+      "status": "complete",
+      "start": "2026-02-02",
+      "end": "2026-02-27",
+      "owner": "Tech",
+      "priority": "P2",
+      "rag": "G",
+      "pct": 100,
+      "effort": "S",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [],
+      "updated": ""
+    },
+    {
+      "id": "c6",
+      "title": "Affiliate Network Launch V1",
+      "cat": "Technology",
+      "status": "complete",
+      "start": "2026-01-05",
+      "end": "2026-02-27",
+      "owner": "Digital",
+      "priority": "P2",
+      "rag": "G",
+      "pct": 100,
+      "effort": "M",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [],
+      "updated": ""
+    },
+    {
+      "id": "c7",
+      "title": "Birthday Sale Stress Test",
+      "cat": "Ecom",
+      "status": "complete",
+      "start": "2026-05-01",
+      "end": "2026-06-30",
+      "owner": "Ecom",
+      "priority": "P1",
+      "rag": "G",
+      "pct": 100,
+      "effort": "S",
+      "budget": "",
+      "deps": [],
+      "blockers": "",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Circulate stress test strategy to ecom team",
+          "done": true
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "h1",
+      "title": "AlphaPro / Integration Layer – Phase 3",
+      "cat": "Technology",
+      "status": "hold",
+      "start": "2026-10-01",
+      "end": "2027-03-31",
+      "owner": "Tech",
+      "priority": "P1",
+      "rag": "A",
+      "pct": 0,
+      "effort": "XL",
+      "budget": "",
+      "deps": [
+        "i2"
+      ],
+      "blockers": "Scope discussion required before Phase 3 can start",
+      "notes": "Discussion required before starting Phase 3. (Proposed window Oct 2026 – Mar 2027, after Phase 2.)",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Loyalty Lion",
+          "done": false
+        },
+        {
+          "text": "Return Prime",
+          "done": false
+        },
+        {
+          "text": "Order Tracking",
+          "done": false
+        },
+        {
+          "text": "Vinculum Replace",
+          "done": false
+        },
+        {
+          "text": "Scope & business-case discussion (gate to restart)",
+          "done": false
+        },
+        {
+          "text": "Resource plan post-Phase 2",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "h2",
+      "title": "Customer Service AI Agents",
+      "cat": "Technology",
+      "status": "hold",
+      "start": "2026-03-02",
+      "end": "2026-08-31",
+      "owner": "Operations",
+      "priority": "P2",
+      "rag": "A",
+      "pct": 30,
+      "effort": "L",
+      "budget": "",
+      "deps": [],
+      "blockers": "On hold — restart decision needed",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Restart decision & business case",
+          "done": false
+        },
+        {
+          "text": "Platform/vendor selection",
+          "done": false
+        },
+        {
+          "text": "Knowledge base preparation",
+          "done": false
+        },
+        {
+          "text": "Pilot on subset of ticket types",
+          "done": false
+        },
+        {
+          "text": "Measure deflection rate & CSAT",
+          "done": false
+        },
+        {
+          "text": "Scale rollout decision",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "h3",
+      "title": "UK Expansion",
+      "cat": "Technology",
+      "status": "hold",
+      "start": "2026-02-02",
+      "end": "2026-11-30",
+      "owner": "Ecom",
+      "priority": "P1",
+      "rag": "A",
+      "pct": 20,
+      "effort": "XL",
+      "budget": "",
+      "deps": [],
+      "blockers": "On hold — restart decision needed",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Restart decision & business case refresh",
+          "done": false
+        },
+        {
+          "text": "VAT/duties & landed-cost model",
+          "done": false
+        },
+        {
+          "text": "3PL / fulfilment route selection",
+          "done": false
+        },
+        {
+          "text": "UK market setup in Shopify (domain, currency, catalogue)",
+          "done": false
+        },
+        {
+          "text": "Local payment & shipping configuration",
+          "done": false
+        },
+        {
+          "text": "Marketing launch plan",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "m1",
+      "title": "V2 PLP (Leggings Referenced)",
+      "cat": "Ecom",
+      "status": "missing",
+      "start": "",
+      "end": "",
+      "owner": "Product",
+      "priority": "P2",
+      "rag": "A",
+      "pct": 0,
+      "effort": "",
+      "budget": "",
+      "deps": [],
+      "blockers": "Requirements not defined",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Appoint owner & write requirements brief",
+          "done": false
+        },
+        {
+          "text": "Baseline current PLP metrics (CTR, add-to-cart)",
+          "done": false
+        },
+        {
+          "text": "UX/design concepts",
+          "done": false
+        },
+        {
+          "text": "Tech scoping & estimate",
+          "done": false
+        },
+        {
+          "text": "Schedule build window",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "m2",
+      "title": "The Den (The Vault)",
+      "cat": "Ecom",
+      "status": "missing",
+      "start": "",
+      "end": "",
+      "owner": "App Team",
+      "priority": "P2",
+      "rag": "A",
+      "pct": 0,
+      "effort": "",
+      "budget": "",
+      "deps": [],
+      "blockers": "Requirements not defined",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Define concept & member benefits",
+          "done": false
+        },
+        {
+          "text": "Requirements brief & success metrics",
+          "done": false
+        },
+        {
+          "text": "App/web scoping & estimate",
+          "done": false
+        },
+        {
+          "text": "Content & drop plan",
+          "done": false
+        },
+        {
+          "text": "Schedule",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "m3",
+      "title": "Taggstar – APP",
+      "cat": "Ecom",
+      "status": "missing",
+      "start": "",
+      "end": "",
+      "owner": "Product",
+      "priority": "P3",
+      "rag": "A",
+      "pct": 0,
+      "effort": "",
+      "budget": "",
+      "deps": [],
+      "blockers": "Requirements not defined",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Define in-app social-proof requirements",
+          "done": false
+        },
+        {
+          "text": "Confirm Taggstar SDK support for app",
+          "done": false
+        },
+        {
+          "text": "Scope & estimate",
+          "done": false
+        },
+        {
+          "text": "Schedule",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "m4",
+      "title": "Local vs Global Shipping",
+      "cat": "Technology",
+      "status": "missing",
+      "start": "",
+      "end": "",
+      "owner": "Tech",
+      "priority": "P2",
+      "rag": "A",
+      "pct": 0,
+      "effort": "",
+      "budget": "",
+      "deps": [],
+      "blockers": "Requirements not defined",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Map current shipping matrix by market",
+          "done": false
+        },
+        {
+          "text": "Define rules: local vs global fulfilment per market",
+          "done": false
+        },
+        {
+          "text": "Cost / SLA analysis",
+          "done": false
+        },
+        {
+          "text": "Requirements sign-off",
+          "done": false
+        },
+        {
+          "text": "Implementation plan",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "m5",
+      "title": "Marketplace Integration",
+      "cat": "Ecom",
+      "status": "missing",
+      "start": "",
+      "end": "",
+      "owner": "Ecom",
+      "priority": "P2",
+      "rag": "A",
+      "pct": 0,
+      "effort": "",
+      "budget": "",
+      "deps": [],
+      "blockers": "Requirements not defined",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Shortlist marketplaces (Amazon, Noon, etc.)",
+          "done": false
+        },
+        {
+          "text": "Business case & margin model",
+          "done": false
+        },
+        {
+          "text": "Catalogue/feed requirements",
+          "done": false
+        },
+        {
+          "text": "Integration approach (via AlphaPro layer?)",
+          "done": false
+        },
+        {
+          "text": "Pilot with one marketplace",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "m6",
+      "title": "UGC PDP",
+      "cat": "Ecom",
+      "status": "missing",
+      "start": "",
+      "end": "",
+      "owner": "Product",
+      "priority": "P3",
+      "rag": "A",
+      "pct": 0,
+      "effort": "",
+      "budget": "",
+      "deps": [],
+      "blockers": "Requirements not defined",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Define UGC sources & moderation policy",
+          "done": false
+        },
+        {
+          "text": "Vendor review (incl. Sauce, previously flagged)",
+          "done": false
+        },
+        {
+          "text": "Rights management approach",
+          "done": false
+        },
+        {
+          "text": "PDP design & placement",
+          "done": false
+        },
+        {
+          "text": "Scope & schedule",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "m7",
+      "title": "SEO",
+      "cat": "Digital Marketing",
+      "status": "missing",
+      "start": "2026-05-01",
+      "end": "2026-12-31",
+      "owner": "Digital",
+      "priority": "P2",
+      "rag": "A",
+      "pct": 0,
+      "effort": "",
+      "budget": "",
+      "deps": [
+        "m8"
+      ],
+      "blockers": "Requirements / owner plan not defined",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Technical SEO audit",
+          "done": false
+        },
+        {
+          "text": "Keyword & content strategy",
+          "done": false
+        },
+        {
+          "text": "Fix priority technical issues",
+          "done": false
+        },
+        {
+          "text": "Content calendar (dependency: Blog CMS)",
+          "done": false
+        },
+        {
+          "text": "Monthly performance reporting",
+          "done": false
+        }
+      ],
+      "updated": ""
+    },
+    {
+      "id": "m8",
+      "title": "BLOG CMS",
+      "cat": "Technology",
+      "status": "missing",
+      "start": "",
+      "end": "",
+      "owner": "Tech",
+      "priority": "P3",
+      "rag": "A",
+      "pct": 0,
+      "effort": "",
+      "budget": "",
+      "deps": [],
+      "blockers": "Requirements not defined",
+      "notes": "",
+      "milestones": [],
+      "subtasks": [
+        {
+          "text": "Define content requirements & publishing workflow",
+          "done": false
+        },
+        {
+          "text": "CMS selection (Shopify native vs headless)",
+          "done": false
+        },
+        {
+          "text": "Migration plan for existing content + SEO redirects",
+          "done": false
+        },
+        {
+          "text": "Build & launch",
+          "done": false
+        }
+      ],
+      "updated": ""
+    }
+  ]
+}
