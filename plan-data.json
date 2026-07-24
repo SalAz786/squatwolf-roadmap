@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-07-23T09:07:06.689Z",
+  "lastUpdated": "2026-07-24T14:25:13.102Z",
   "items": [
     {
       "id": "p1",
@@ -411,7 +411,7 @@
       "id": "n8",
       "title": "Banking Integrations",
       "cat": "Technology",
-      "status": "planned",
+      "status": "hold",
       "start": "2026-09-01",
       "end": "2026-12-18",
       "owner": "Tech / Finance",
@@ -470,7 +470,7 @@
           "done": false
         }
       ],
-      "updated": "2026-07-22"
+      "updated": "2026-07-24"
     },
     {
       "id": "n9",
