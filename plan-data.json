@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-07-24T14:49:26.073Z",
+  "lastUpdated": "2026-07-29T06:23:54.014Z",
   "items": [
     {
       "id": "p1",
@@ -735,7 +735,7 @@
       "cat": "Technology",
       "status": "progress",
       "start": "2026-02-02",
-      "end": "2026-07-31",
+      "end": "2026-10-05",
       "owner": "Ecom",
       "priority": "P1",
       "rag": "A",
@@ -768,7 +768,7 @@
           "done": false
         }
       ],
-      "updated": "2026-07-22"
+      "updated": "2026-07-29"
     },
     {
       "id": "i7",
